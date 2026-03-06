@@ -24,7 +24,7 @@ const policies = [
     {
         icon: XCircle,
         title: "Cancellations",
-        desc: "Drop-ins, walks, and baths canceled with 24+ hours' notice incur no charge. Same-day cancellations are billed at 50%. No-shows are billed at the full rate."
+        desc: "Drop-ins and walks canceled with 24+ hours' notice incur no charge. Same-day cancellations are billed at 50%. No-shows are billed at the full rate."
     },
     {
         icon: Sparkles,

@@ -16,8 +16,7 @@ export function Hero() {
               </p>
               <h1 className="text-6xl sm:text-7xl lg:text-8xl font-serif leading-[0.95] tracking-tight mb-8 text-slate">
                 Southern <br />
-                <span className="italic text-mint">Hospitality,</span><br />
-                for Hounds.
+                <span className="italic text-mint">Hospitality</span>
               </h1>
               <p className="text-xl text-slate/70 max-w-md font-light leading-relaxed mb-10">
                 Reliable, professional in-home pet care for busy professionals and families in Youngsville, Lafayette, Broussard, and Scott.

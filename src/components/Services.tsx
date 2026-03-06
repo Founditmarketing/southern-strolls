@@ -20,12 +20,6 @@ const services = [
     image: "/images/hero_dog_walking_1772814715743.png"
   },
   {
-    title: "In-Home Baths",
-    desc: "Professional bath and blow-dry services performed right in the comfort of your home. Deshedding and teeth brushing available as add-ons.",
-    price: "From $45 (Based on weight)",
-    image: "/images/testimonial_happy_dog_1772814775314.png"
-  },
-  {
     title: "Pet Transportation",
     desc: "Safe and reliable transport for vet visits, grooming appointments, daycare drop-offs, and other local pet needs (up to 30 mins).",
     price: "$25 (One-way) / $45 (Round-trip)",

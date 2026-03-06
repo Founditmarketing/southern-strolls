@@ -63,7 +63,6 @@ export function IntakeForm() {
                   <option value="walk-30" className="text-slate">Dog Walk (30 min)</option>
                   <option value="walk-60" className="text-slate">Dog Walk (60 min)</option>
                   <option value="puppy" className="text-slate">Puppy Potty Break</option>
-                  <option value="bath" className="text-slate">In-Home Bath</option>
                   <option value="transport" className="text-slate">Pet Transportation</option>
                 </select>
               </div>
