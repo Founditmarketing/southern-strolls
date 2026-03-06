@@ -5,13 +5,13 @@ const services = [
     title: "Drop-In Visit (30 min)",
     desc: "Comprehensive drop-in care that maintains your pet's exact routine. Includes potty break, water, feeding if needed, playtime, and a photo update.",
     price: "$23 / visit (+ $10 extra pet)",
-    image: "/images/service_signature_stroll_1772814731135.png"
+    image: "/images/service_concierge_sitting_1772814744389.png"
   },
   {
     title: "Dog Walking",
     desc: "A leisurely, unhurried walk through your neighborhood's most scenic routes. Perfect for active dogs who appreciate the finer sniffs in life.",
     price: "$25 (30m) / $45 (60m)",
-    image: "/images/service_concierge_sitting_1772814744389.png"
+    image: "/images/service_signature_stroll_1772814731135.png"
   },
   {
     title: "Puppy Potty Breaks",
