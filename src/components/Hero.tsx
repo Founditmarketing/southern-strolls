@@ -3,6 +3,12 @@ import { motion } from 'motion/react';
 export function Hero() {
   return (
     <section className="relative min-h-[95vh] flex items-center pt-32 pb-20 md:pt-20 md:pb-0 overflow-hidden bg-cream">
+      {/* Background Atmospheric Orbs */}
+      <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none">
+        <div className="absolute top-[-10%] left-[-10%] w-[50%] h-[50%] bg-blush/20 rounded-full blur-[100px] md:blur-[120px]" />
+        <div className="absolute bottom-[-10%] right-[-10%] w-[60%] h-[60%] bg-mint/20 rounded-full blur-[100px] md:blur-[120px]" />
+      </div>
+
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full relative z-10">
         <div className="grid lg:grid-cols-12 gap-8 md:gap-12 items-center text-center lg:text-left">
           <div className="lg:col-span-7 flex flex-col items-center lg:items-start">
@@ -57,24 +63,8 @@ export function Hero() {
               <img
                 src="/images/hero_dog_walking_1772814715743.png"
                 alt="Dog walking in nature"
-                className="w-full aspect-square object-cover rounded-[2rem] md:rounded-full border-8 border-cream shadow-xl"
+                className="w-full aspect-square object-cover rounded-[2rem] md:rounded-full border-8 border-cream shadow-xl hover:scale-105 transition-transform duration-700"
               />
-            </motion.div>
-
-            {/* Floating Glassmorphism Badge */}
-            <motion.div
-              initial={{ opacity: 0, rotate: -10, y: 20 }}
-              animate={{ opacity: 1, rotate: 0, y: 0 }}
-              transition={{ duration: 1, delay: 0.6, ease: [0.16, 1, 0.3, 1] }}
-              className="absolute top-[10%] -left-2 md:-left-12 z-30 bg-white/80 backdrop-blur-md p-3 md:p-4 rounded-2xl shadow-xl border border-white/40 flex items-center gap-3"
-            >
-              <div className="w-10 h-10 md:w-12 md:h-12 rounded-full bg-mint/30 flex items-center justify-center text-xl md:text-2xl shadow-inner">
-                ✨
-              </div>
-              <div className="pr-2">
-                <p className="text-[10px] md:text-xs text-slate/50 tracking-widest uppercase font-bold mb-0.5">World Class</p>
-                <p className="text-sm md:text-base text-slate font-serif font-semibold leading-none">Pet Care</p>
-              </div>
             </motion.div>
           </div>
         </div>
