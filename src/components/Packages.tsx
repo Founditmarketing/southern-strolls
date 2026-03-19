@@ -3,20 +3,6 @@ import { Check } from 'lucide-react';
 
 const packages = [
     {
-        title: "The Workweek Stroll",
-        subtitle: "5 Drop-In Visits/Week (30 min)",
-        price: "$109",
-        period: "/week",
-        savings: "$6 savings (5% off)",
-        desc: "Great for full-time workers, commuters, routine clients",
-        features: [
-            "Consistent daily schedule",
-            "Potty break & feeding",
-            "Playtime & interaction",
-            "Daily photo update"
-        ]
-    },
-    {
         title: "The Frequent Stroll",
         subtitle: "4 Drop-In Visits/Week (30 min)",
         price: "$87",
@@ -25,6 +11,20 @@ const packages = [
         desc: "Great for hybrid workers.",
         features: [
             "Flexible active days",
+            "Potty break & feeding",
+            "Playtime & interaction",
+            "Daily photo update"
+        ]
+    },
+    {
+        title: "The Workweek Stroll",
+        subtitle: "5 Drop-In Visits/Week (30 min)",
+        price: "$109",
+        period: "/week",
+        savings: "$6 savings (5% off)",
+        desc: "Great for full-time workers, commuters, routine clients",
+        features: [
+            "Consistent daily schedule",
             "Potty break & feeding",
             "Playtime & interaction",
             "Daily photo update"

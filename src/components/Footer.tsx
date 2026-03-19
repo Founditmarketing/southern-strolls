@@ -11,7 +11,8 @@ export function Footer() {
               Reliable, professional in-home pet care and transportation.
             </p>
             <div className="text-sm text-cream/80 font-light space-y-1">
-              <p><span className="font-medium text-cream">Hours:</span> Mon–Thu 8am–4pm | Fri 8am–1pm</p>
+              <p><span className="font-medium text-cream">Regular Care:</span> Mon–Fri 8am–4pm</p>
+              <p><span className="font-medium text-cream">Pet Transport:</span> Mon–Fri 6:30am–6:30pm</p>
               <p><span className="font-medium text-cream">Service Area:</span> Youngsville, Lafayette, Broussard, Scott</p>
             </div>
           </div>
@@ -27,8 +28,8 @@ export function Footer() {
           <div className="md:col-span-3">
             <h4 className="text-xs tracking-widest uppercase text-cream/40 font-medium mb-6">Social</h4>
             <ul className="space-y-4 font-light text-cream/80">
-              <li><a href="#" className="hover:text-blush transition-colors">Instagram</a></li>
-              <li><a href="#" className="hover:text-blush transition-colors">Facebook</a></li>
+              <li><a href="https://instagram.com/southernstrolls" target="_blank" rel="noopener noreferrer" className="hover:text-blush transition-colors">Instagram</a></li>
+              <li><a href="https://facebook.com/southernstrolls" target="_blank" rel="noopener noreferrer" className="hover:text-blush transition-colors">Facebook</a></li>
             </ul>
           </div>
         </div>

@@ -14,7 +14,7 @@ const policies = [
     {
         icon: Clock,
         title: "Hours & Boundaries",
-        desc: "Normal hours are Monday–Thursday 8am–4pm and Friday 8am–1pm. We do not offer overnight services or late-night visits to ensure our team operates at peak reliability."
+        desc: "Regular Care Hours are Monday–Friday 8:00 AM–4:00 PM. Pet Transportation Hours are Monday–Friday 6:30 AM–6:30 PM (Available by request and based on availability). We do not offer overnight services or late-night visits to ensure our team operates at peak reliability."
     },
     {
         icon: Key,

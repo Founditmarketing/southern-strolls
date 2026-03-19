@@ -10,12 +10,12 @@ const services = [
   {
     title: "Dog Walking",
     desc: "A leisurely, unhurried walk through your neighborhood's most scenic routes. Perfect for active dogs who appreciate the finer sniffs in life.",
-    price: "$25 (30m) / $45 (60m)",
+    price: "$25 (30 min) / $45 (60 min)",
     image: "/images/service_signature_stroll_1772814731135.png"
   },
   {
-    title: "Puppy Potty Breaks",
-    desc: "Quick 15-minute stops perfect for stacking visits close together to help your new puppy establish a consistent routine.",
+    title: "Quick Drop In Visits",
+    desc: "A quick 15-minute drop-in visit that's perfect for puppies, senior dogs, or pets who need a brief potty break and check-in during the day. This service is also easily stackable for families who need a little extra flexibility and support.",
     price: "$17 (1 stop) / $30 (2 stops)",
     image: "/images/hero_dog_walking_1772814715743.png"
   },
