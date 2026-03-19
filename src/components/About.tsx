@@ -38,15 +38,7 @@ export function About() {
                 At Southern Strolls, this is more than just a job to me. It's something I'm truly passionate about. I love building relationships with both pets and their owners, and I am honored to be someone families can count on when they need loving, trustworthy care.
               </p>
             </div>
-            
-            <div className="mt-12">
-              <a href="#consultation" className="group inline-flex items-center gap-4 text-sm tracking-widest uppercase text-slate font-medium">
-                <span className="border-b border-slate pb-1 group-hover:border-blush group-hover:text-blush transition-colors">
-                  Schedule a Meet & Greet
-                </span>
-                <ArrowRight className="w-4 h-4 group-hover:text-blush transition-colors group-hover:translate-x-1 transform" />
-              </a>
-            </div>
+
           </div>
         </div>
       </div>
