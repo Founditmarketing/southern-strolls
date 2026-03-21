@@ -18,7 +18,7 @@ export function Navbar() {
   const links = [
     { name: 'Services', href: '#services' },
     { name: 'The Standard', href: '#testimonials' },
-    { name: 'Consultation', href: '#consultation' },
+    { name: 'Client Portal', href: 'https://www.timetopet.com/portal/southernstrolls' },
   ];
 
   return (
@@ -45,7 +45,7 @@ export function Navbar() {
               </a>
             ))}
             <a
-              href="#consultation"
+              href="https://www.timetopet.com/portal/southernstrolls" target="_blank" rel="noopener noreferrer"
               className="bg-slate hover:bg-mint hover:text-slate text-cream px-6 py-2.5 rounded-full text-sm tracking-widest uppercase font-medium transition-all"
             >
               Inquire
@@ -84,7 +84,7 @@ export function Navbar() {
                 </a>
               ))}
               <a
-                href="#consultation"
+                href="https://www.timetopet.com/portal/southernstrolls" target="_blank" rel="noopener noreferrer"
                 onClick={() => setIsOpen(false)}
                 className="w-full text-center bg-slate text-cream px-6 py-4 rounded-full text-sm tracking-widest uppercase font-medium mt-4 hover:bg-mint hover:text-slate transition-colors"
               >

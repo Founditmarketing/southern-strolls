@@ -89,7 +89,7 @@ export function Packages() {
                                 ))}
                             </ul>
 
-                            <a href="#consultation" className="block w-full text-center bg-cream text-slate border border-slate/10 hover:bg-slate hover:text-white px-6 py-4 rounded-full text-sm tracking-widest uppercase transition-colors duration-300 font-medium mt-auto">
+                            <a href="https://www.timetopet.com/portal/southernstrolls" target="_blank" rel="noopener noreferrer" className="block w-full text-center bg-cream text-slate border border-slate/10 hover:bg-slate hover:text-white px-6 py-4 rounded-full text-sm tracking-widest uppercase transition-colors duration-300 font-medium mt-auto">
                                 Select Package
                             </a>
                         </motion.div>

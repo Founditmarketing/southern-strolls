@@ -28,7 +28,7 @@ export function Hero() {
                 Reliable, professional in-home pet care for busy professionals and families in Youngsville, Lafayette, Broussard, and Scott.
               </p>
               <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-center lg:justify-start gap-4 sm:gap-6 mt-6 sm:mt-8 mb-8 sm:mb-0 relative z-20">
-                <a href="#consultation" className="bg-mint text-slate px-8 py-4 rounded-full text-sm tracking-widest uppercase hover:bg-blush hover:text-white transition-colors duration-300 w-full sm:w-auto text-center font-medium shadow-md">
+                <a href="https://www.timetopet.com/portal/southernstrolls" target="_blank" rel="noopener noreferrer" className="bg-mint text-slate px-8 py-4 rounded-full text-sm tracking-widest uppercase hover:bg-blush hover:text-white transition-colors duration-300 w-full sm:w-auto text-center font-medium shadow-md">
                   Request a Consultation
                 </a>
                 <a href="#services" className="text-slate text-center text-sm tracking-widest uppercase border-b border-transparent pb-1 hover:text-blush hover:border-blush transition-colors duration-300 w-full sm:w-auto">

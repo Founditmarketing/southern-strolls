@@ -61,7 +61,7 @@ export function Services() {
                 <p className="text-lg text-slate/70 font-light leading-relaxed mb-10">
                   {service.desc}
                 </p>
-                <a href="#consultation" className="group inline-flex items-center gap-4 text-sm tracking-widest uppercase text-slate font-medium">
+                <a href="https://www.timetopet.com/portal/southernstrolls" target="_blank" rel="noopener noreferrer" className="group inline-flex items-center gap-4 text-sm tracking-widest uppercase text-slate font-medium">
                   <span className="border-b border-slate pb-1 group-hover:border-blush group-hover:text-blush transition-colors">
                     Inquire About Service
                   </span>

@@ -5,7 +5,6 @@ import { Services } from './components/Services';
 import { Packages } from './components/Packages';
 import { Policies } from './components/Policies';
 import { Testimonials } from './components/Testimonials';
-import { IntakeForm } from './components/IntakeForm';
 import { Benefits } from './components/Benefits';
 import { Footer } from './components/Footer';
 
@@ -22,7 +21,6 @@ export default function App() {
         <Policies />
         <Testimonials />
         <About />
-        <IntakeForm />
       </main>
 
       <Footer />
