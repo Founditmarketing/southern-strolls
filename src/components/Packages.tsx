@@ -3,7 +3,7 @@ import { Check } from 'lucide-react';
 
 const packages = [
     {
-        title: "The Frequent Stroll",
+        title: "The Frequent",
         subtitle: "4 Drop-In Visits/Week (30 min)",
         price: "$87",
         period: "/week",
@@ -17,7 +17,7 @@ const packages = [
         ]
     },
     {
-        title: "The Workweek Stroll",
+        title: "The Workweek",
         subtitle: "5 Drop-In Visits/Week (30 min)",
         price: "$109",
         period: "/week",
@@ -31,7 +31,7 @@ const packages = [
         ]
     },
     {
-        title: "Puppy Plus Plan",
+        title: "The Plus",
         subtitle: "2 Stops/Day, 5 Days/Week (15m each)",
         price: "$143",
         period: "/week",
