@@ -1,29 +1,30 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Navbar } from './components/Navbar';
-import { Hero } from './components/Hero';
-import { About } from './components/About';
-import { Services } from './components/Services';
-import { Packages } from './components/Packages';
-import { Policies } from './components/Policies';
-import { Testimonials } from './components/Testimonials';
-import { Benefits } from './components/Benefits';
 import { Footer } from './components/Footer';
+import { ScrollToTop } from './components/ScrollToTop';
+import { Home } from './pages/Home';
+import { AboutPage } from './pages/AboutPage';
+import { TestimonialsPage } from './pages/TestimonialsPage';
+import { ServiceDetailPage } from './pages/ServiceDetailPage';
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-cream font-sans text-slate selection:bg-blush selection:text-cream">
-      <Navbar />
+    <BrowserRouter>
+      <div className="min-h-screen bg-cream font-sans text-slate selection:bg-blush selection:text-cream">
+        <ScrollToTop />
+        <Navbar />
 
-      <main>
-        <Hero />
-        <Services />
-        <Packages />
-        <Benefits />
-        <Policies />
-        <Testimonials />
-        <About />
-      </main>
+        <main>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<AboutPage />} />
+            <Route path="/testimonials" element={<TestimonialsPage />} />
+            <Route path="/services/:serviceId" element={<ServiceDetailPage />} />
+          </Routes>
+        </main>
 
-      <Footer />
-    </div>
+        <Footer />
+      </div>
+    </BrowserRouter>
   );
 }
