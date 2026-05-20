@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://southernstrolls.la/sitemap.xml

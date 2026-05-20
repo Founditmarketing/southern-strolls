@@ -1,0 +1,48 @@
+# Southern Strolls
+
+Southern Strolls is a premium, professional pet care and dog walking service based in Lafayette, Louisiana, serving Youngsville, Lafayette, Broussard, and Scott. Owned and operated by Karlee Kitchen, the company offers routine-based daytime pet care, private dog walking, and pet taxi services.
+
+## Contact Information
+- **Owner:** Karlee Kitchen
+- **Email:** southernstrollsla@gmail.com
+- **Phone:** (318) 955-5947
+- **Website:** https://southernstrolls.la
+- **Instagram:** https://www.instagram.com/southernstrollsla
+- **Facebook:** https://www.facebook.com/people/Southern-Strolls/61585024023710/
+- **Client Portal (TimeToPet):** https://www.timetopet.com/portal/southernstrolls
+
+## Operating Hours
+- **Regular Daytime Care:** Monday–Friday, 8:00 AM – 4:00 PM
+- **Pet Transportation:** Monday–Friday, 6:30 AM – 6:30 PM (Subject to availability)
+- *Note: Overnight services and late-night visits are not offered.*
+
+## Site Structure & Pages
+
+### 1. Home Page (/)
+- General introduction, packages, benefits, basic policies, and highlights of our services.
+
+### 2. About Us (/about)
+- Professional bio of owner Karlee Kitchen.
+- Explains our focus on trust, reliability, safety, and personalized pet routines.
+- Highlights membership in the **International Boarding & Pet Services Association (IBPSA)** representing quality standards in the pet services industry.
+
+### 3. Testimonials (/testimonials)
+- Verified client reviews from local pet parents (Golden Retrievers, French Bulldogs, Persian Cats, German Shepherds, etc.) highlighting the "Southern Standard" of care.
+
+### 4. Core Services (/services/:serviceId)
+We offer 4 dedicated services:
+- **Drop-In Visit (30 min)** (`/services/drop-in-30`)
+  - **Price:** $23 / visit (+ $10 extra pet)
+  - **Details:** Maintaining your pet's exact daily routine (feeding, potty break, litter clean, play, oral meds, and real-time updates with photos).
+- **Dog Walking** (`/services/dog-walking`)
+  - **Price:** $25 (30 min) / $45 (60 min)
+  - **Details:** 100% private, individual walks in your neighborhood tailored to your dog's pace. Includes post-walk paw cleaning, water refills, and GPS tracking reports.
+- **Quick Drop In Visits** (`/services/quick-drop-in`)
+  - **Price:** $17 (1 stop) / $30 (2 stops)
+  - **Details:** Efficient 15-minute check-ins. Great for senior dogs, puppy potty breaks, or independent cats. Stackable options are available.
+- **Pet Transportation** (`/services/pet-transportation`)
+  - **Price:** $25 (One-way) / $45 (Round-trip)
+  - **Details:** Safe, climate-controlled, and secure taxi service for local vet or grooming appointments (up to 30 min per leg). Includes assistance with destination check-ins.
+
+## Service Philosophy
+We operate under "The Southern Standard"—treating every companion with uncompromised safety, tailored affection, and maintaining clear communication with pet parents via our portal.
