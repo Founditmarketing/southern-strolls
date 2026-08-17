@@ -2,6 +2,7 @@ import { useParams, Link } from 'react-router-dom';
 import { motion } from 'motion/react';
 import { ArrowLeft, Check, HelpCircle, ArrowRight, Star } from 'lucide-react';
 import { useState } from 'react';
+import { PageSEO } from '../components/PageSEO';
 
 const servicesData: Record<string, {
   title: string;
@@ -188,8 +189,39 @@ export function ServiceDetailPage() {
     );
   }
 
+  const serviceJsonLd = {
+    '@type': 'Service',
+    serviceType: service.title,
+    description: service.tagline,
+    provider: {
+      '@type': 'LocalBusiness',
+      name: 'Southern Strolls',
+      telephone: '+13189555947',
+      url: 'https://southernstrolls.la',
+    },
+    areaServed: ['Lafayette, LA', 'Youngsville, LA', 'Broussard, LA', 'Scott, LA'],
+  };
+
+  const faqJsonLd = {
+    '@type': 'FAQPage',
+    mainEntity: service.faqs.map((faq) => ({
+      '@type': 'Question',
+      name: faq.q,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: faq.a,
+      },
+    })),
+  };
+
   return (
     <div className="bg-cream pt-32 pb-24">
+      <PageSEO
+        title={`${service.title} | Southern Strolls Pet Care`}
+        description={`${service.tagline} ${service.price}.`}
+        canonicalPath={`/services/${serviceId}`}
+        jsonLd={[serviceJsonLd, faqJsonLd]}
+      />
       {/* Back link */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-8">
         <Link

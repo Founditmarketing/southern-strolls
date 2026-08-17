@@ -1,5 +1,6 @@
 import { motion } from 'motion/react';
 import { Quote, Star, ArrowRight } from 'lucide-react';
+import { PageSEO } from '../components/PageSEO';
 
 const testimonials = [
   {
@@ -46,9 +47,40 @@ const testimonials = [
   }
 ];
 
+const averageRating = (
+  testimonials.reduce((sum, t) => sum + t.rating, 0) / testimonials.length
+).toFixed(1);
+
+const testimonialsJsonLd = {
+  '@type': 'LocalBusiness',
+  name: 'Southern Strolls',
+  url: 'https://southernstrolls.la',
+  aggregateRating: {
+    '@type': 'AggregateRating',
+    ratingValue: averageRating,
+    reviewCount: testimonials.length,
+  },
+  review: testimonials.map((t) => ({
+    '@type': 'Review',
+    author: { '@type': 'Person', name: t.author },
+    reviewBody: t.quote,
+    reviewRating: {
+      '@type': 'Rating',
+      ratingValue: t.rating,
+      bestRating: 5,
+    },
+  })),
+};
+
 export function TestimonialsPage() {
   return (
     <div className="bg-cream pt-32 pb-24">
+      <PageSEO
+        title="Client Testimonials & Reviews | Southern Strolls"
+        description="Read real reviews from Lafayette-area pet parents who trust Southern Strolls for dog walking, drop-in visits, and pet transportation."
+        canonicalPath="/testimonials"
+        jsonLd={testimonialsJsonLd}
+      />
       {/* Page Header */}
       <section className="relative overflow-hidden py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
         <motion.div

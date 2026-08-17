@@ -1,5 +1,6 @@
 import { motion } from 'motion/react';
 import { ArrowRight, ShieldCheck, Heart, Award, CheckCircle } from 'lucide-react';
+import { PageSEO } from '../components/PageSEO';
 
 export function AboutPage() {
   const values = [
@@ -22,6 +23,11 @@ export function AboutPage() {
 
   return (
     <div className="bg-cream pt-32 pb-24">
+      <PageSEO
+        title="About Karlee Kitchen | Southern Strolls Pet Care"
+        description="Meet Karlee Kitchen, owner of Southern Strolls and an IBPSA member bringing trusted, insured, and personalized pet care to Lafayette-area families."
+        canonicalPath="/about"
+      />
       {/* Page Header */}
       <section className="relative overflow-hidden py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
         <motion.div
